@@ -114,7 +114,7 @@ while True:
     if (p < len(L)):
         s = float(input('new ' + L[p] + ': '))
         value = sigmoid(s)
-        print('GUESS:')
+        print('GUEST:')
         if s > 0.5:
             for i in guess[item]:
                 print('\t' + i + ' = 1')
